@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Batman Central Order</title>
+<link rel="stylesheet" href="finalstyle.css">
+
+</head>
+
+<body>
+<!--Where people can order out of 3 comics with the incentive of getting the white lantern batman and/or the batarang-->
+<h1>Order Your Batman Comics</h1>
+<nav><a href = "index.html">Home </a>|<a href = "order.html"> Get Your Comics</a> | <a href = "info.html">About the Store </a>| <a href = "aboutme.html">About the Owner</a></nav>
+
+<h2>Get Your Iconic Batman Comics Here TODAY</h2>
+<p>IF YOU SPEND $25, YOU GET THE FREE WHITE LANTERN BATMAN ACTION FIGURE, SPEND $50 TO GET THE FREE LIFE SIZE BATARANG ALSO!!!!!!!</p>
+
+<form name = "myForm">
+	<input type = "reset" value = "Reset">
+	<br>
+	<img src = "images/knightfall.jpg" alt = "Batman Knightfall #1">
+	<label for = "comic1">Batman: Knightfall Part 1: Broken Bat Copyright 1993 DC Comics<br> $17.95</label>
+	<input type = "text" id = "comic1" name = "comic1" value = "0">
+	<br>
+	<img src = "images/halloween.jpg" alt = "Batman Long Halloween">
+	<label for = "comic2">Batman: The Long Halloween Copyright 1998 DC Comics<br> $19.99</label>
+	<input type = "text" id = "comic2" name = "comic2" value = "0">
+	<br>
+	<img src = "images/hush.png" alt = "Batman Hush">
+	<label for = "comic3">Batman: Hush Copyright 2009 DC Comics<br> $24.99</label>
+	<input type = "type" id = "comic3" name = "comic3" value = "0">
+	<br>
+	<input type = "button" onclick = "calculate()" value = "Order">
+</form>
+<br>
+<textarea id = "order" rows = "9" cols = "50"></textarea>
+
+<footer>
+	<p id = "date"></p>
+</footer>
+
+<script src = "functions.js">
+</script>
+</body>
+</html>
